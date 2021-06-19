@@ -1,0 +1,42 @@
+body {
+    margin: 15%;
+    font-family: "Ropa Sans";
+}
+
+h2 {
+    color: #fff;
+    text-shadow: 2px 2px black, 2px 2px 10px black;
+    display: grid;
+    place-content: center;
+    place-items: center;
+}
+
+#container {
+    display: grid;
+    grid-template-columns: repeat(2, 150px);
+    grid-template-rows: 150px;
+    grid-gap: 10px;
+    place-content: center;
+    place-items: center;
+}
+
+input {
+    background-color: #286090;
+    font-family: "Ropa Sans";
+    color: #fff;
+    padding: 0.5rem;
+    font-size: 1.1rem;
+    border-color: #abcdef;
+    border-radius: 0.3rem;
+}
+
+input::placeholder {
+    font-family: "Ropa Sans";
+    color: #abcdef;
+}
+
+#customize {
+    display: grid;
+    grid-template-columns: 200px;
+    grid-gap: 10px;
+}
